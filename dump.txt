@@ -1,0 +1,13 @@
+2023-02-09 16:10:14 Traceback (most recent call last):
+2023-02-09 16:10:14   File "main.py", line 139, in <module>
+2023-02-09 16:10:14     env.execute()
+2023-02-09 16:10:14   File "/usr/local/lib/python3.7/site-packages/pyflink/datastream/stream_execution_environment.py", line 764, in execute
+2023-02-09 16:10:14     return JobExecutionResult(self._j_stream_execution_environment.execute(j_stream_graph))
+2023-02-09 16:10:14   File "/usr/local/lib/python3.7/site-packages/py4j/java_gateway.py", line 1322, in __call__
+2023-02-09 16:10:14     answer, self.gateway_client, self.target_id, self.name)
+2023-02-09 16:10:14   File "/usr/local/lib/python3.7/site-packages/pyflink/util/exceptions.py", line 146, in deco
+2023-02-09 16:10:14     return f(*a, **kw)
+2023-02-09 16:10:14   File "/usr/local/lib/python3.7/site-packages/py4j/protocol.py", line 328, in get_return_value
+2023-02-09 16:10:14     format(target_id, ".", name), value)
+2023-02-09 16:10:14 py4j.protocol.Py4JJavaError: An error occurred while calling o0.execute.
+2023-02-09 16:10:14 : org.apache.flink.runtime.client.JobExecutionException: Job execution failed.
